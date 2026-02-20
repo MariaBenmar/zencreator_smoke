@@ -1,0 +1,24 @@
+{
+  "name": "zencreator-playwright-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Playwright + TypeScript automation framework for zencreator.pro",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report:html": "playwright show-report",
+    "report:allure:generate": "allure generate allure-results --clean -o allure-report",
+    "report:allure:open": "allure open allure-report",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3",
+    "allure-commandline": "^2.34.0",
+    "allure-playwright": "^3.2.0",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}
