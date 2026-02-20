@@ -7,3 +7,7 @@ test-results/
 *.mp4
 *.webm
 *.zip
+
+# ... existing code ...
+.idea/
+.DS_Store
