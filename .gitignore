@@ -1,0 +1,9 @@
+node_modules/
+playwright-report/
+allure-results/
+allure-report/
+test-results/
+.env
+*.mp4
+*.webm
+*.zip
